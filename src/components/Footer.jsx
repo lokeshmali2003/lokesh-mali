@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaWhatsapp, FaLinkedin, FaInstagram, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
+import { FaWhatsapp, FaLinkedin, FaGithub, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 import './Footer.css'
 
@@ -16,20 +16,20 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: FaLinkedin,
-      url: 'https://www.linkedin.com/in/yourprofile',
+      url: 'https://www.linkedin.com/in/mali-lokesh',
       color: '#0077B5'
     },
     {
       name: 'Gmail',
       icon: SiGmail,
-      url: 'mailto:malilokesh311@gmail.com',
+      url: 'https://mail.google.com/mail/?view=cm&fs=1&to=malilokesh311@gmail.com',
       color: '#EA4335'
     },
     {
-      name: 'Instagram',
-      icon: FaInstagram,
-      url: 'https://www.instagram.com/yourprofile',
-      color: '#E4405F'
+      name: 'GitHub',
+      icon: FaGithub,
+      url: 'https://github.com/lokeshmali2003',
+      color: '#ffffff'
     }
   ]
 

@@ -52,7 +52,8 @@ const About = () => {
                 const counters = entry.target.querySelectorAll('.counter')
                 counters.forEach((counter) => {
                   const target = parseInt(counter.getAttribute('data-target'))
-                  animateCounter(counter, target)
+                  const suffix = counter.getAttribute('data-suffix') || ''
+                  animateCounter(counter, target, 2000, suffix)
                 })
               }
             }, index * 100)
@@ -109,16 +110,22 @@ const About = () => {
             
             <div ref={statsRef} className="about-stats fade-in">
               <div className="stat-item">
-                <h3 className="counter" data-target="50">0</h3>
+                <h3 className="counter" data-target="10" data-suffix="+">0</h3>
                 <p>Projects Completed</p>
               </div>
               <div className="stat-item">
-                <h3 className="counter" data-target="5">0</h3>
+                <h3 className="counter" data-target="1" data-suffix=" Year">0</h3>
                 <p>Years Experience</p>
               </div>
-              <div className="stat-item">
-                <h3 className="counter" data-target="100">0</h3>
-                <p>Happy Clients</p>
+              <div className="stat-item stat-item-company">
+                <div className="company-logo-wrapper">
+                  <img 
+                    src="https://media.licdn.com/dms/image/v2/C4E0BAQHskdO0cpDcoQ/company-logo_200_200/company-logo_200_200/0/1679290755268?e=1769644800&v=beta&t=5qfPRD_kl1hIDCJ0CXGWggF1CFSdAA2RyfQZiHISXZ8" 
+                    alt="Jediteck" 
+                    className="company-logo"
+                  />
+                </div>
+                <p>Working on Jediteck</p>
               </div>
             </div>
           </div>

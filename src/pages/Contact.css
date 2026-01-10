@@ -10,6 +10,23 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   position: relative;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+.page-title.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.page-title.fade-in.animate-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .page-title::after {
@@ -22,6 +39,28 @@
   height: 4px;
   background: linear-gradient(135deg, #00d4ff, #5b9bd5, #9d4edd);
   border-radius: 2px;
+}
+
+.page-subtitle {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-light);
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.6;
+  display: block;
+  padding: 0 1rem;
+}
+
+.page-subtitle.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.page-subtitle.fade-in.animate-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .contact-content {

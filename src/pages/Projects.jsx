@@ -4,6 +4,8 @@ import './Projects.css'
 
 const Projects = () => {
   const projectsRef = useRef(null)
+  const titleRef = useRef(null)
+  const subtitleRef = useRef(null)
 
   const projects = [
     {
@@ -63,6 +65,14 @@ const Projects = () => {
   ]
 
   useEffect(() => {
+    // Immediately show title and subtitle
+    if (titleRef.current) {
+      titleRef.current.classList.add('animate-in')
+    }
+    if (subtitleRef.current) {
+      subtitleRef.current.classList.add('animate-in')
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -93,8 +103,8 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="container">
-        <h1 className="page-title fade-in">My Projects</h1>
-        <p className="page-subtitle fade-in">
+        <h1 ref={titleRef} className="page-title fade-in animate-in">My Projects</h1>
+        <p ref={subtitleRef} className="page-subtitle fade-in animate-in">
           A collection of projects I've worked on
         </p>
 

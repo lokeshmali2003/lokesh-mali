@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import ScrollToTopButton from './components/ScrollToTop'
+import Loading from './components/Loading'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
@@ -32,6 +33,7 @@ function App() {
       }}
     >
       <div className="App">
+        <Loading />
         <ScrollToTop />
         <Navigation />
         <Routes>

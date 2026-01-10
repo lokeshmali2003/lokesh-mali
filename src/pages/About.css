@@ -178,12 +178,7 @@
   background-clip: text;
 }
 
-.stat-item:nth-child(3) h3 {
-  background: linear-gradient(135deg, #ffa500, #ffd700);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
+/* Removed nth-child(3) h3 styling as third stat item now uses company logo */
 
 .stat-item:hover h3 {
   transform: scale(1.1);
@@ -193,6 +188,44 @@
   color: var(--text-light);
   font-weight: 500;
   margin: 0;
+}
+
+/* Company Logo Stat Item */
+.stat-item-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-logo-wrapper {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.company-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.stat-item-company:hover .company-logo-wrapper {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 212, 255, 0.3);
+}
+
+.stat-item-company:hover .company-logo {
+  transform: scale(1.05);
 }
 
 /* Skills Section */
@@ -348,6 +381,11 @@
 
   .stat-item h3 {
     font-size: 2rem;
+  }
+
+  .company-logo-wrapper {
+    width: 60px;
+    height: 60px;
   }
 
   .skills-title {

@@ -15,11 +15,21 @@ const Contact = () => {
 
   const formRef = useRef(null)
   const infoRef = useRef(null)
+  const titleRef = useRef(null)
+  const subtitleRef = useRef(null)
   const form = useRef(null)
 
   const WHATSAPP_NUMBER = '918619511466' // Your WhatsApp number (without + sign)
 
   useEffect(() => {
+    // Immediately show title and subtitle
+    if (titleRef.current) {
+      titleRef.current.classList.add('animate-in')
+    }
+    if (subtitleRef.current) {
+      subtitleRef.current.classList.add('animate-in')
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry, index) => {
@@ -136,8 +146,8 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="container">
-        <h1 className="page-title fade-in">Get In Touch</h1>
-        <p className="page-subtitle fade-in">
+        <h1 ref={titleRef} className="page-title fade-in animate-in">Get In Touch</h1>
+        <p ref={subtitleRef} className="page-subtitle fade-in animate-in">
           Have a project in mind? Let's work together! I'm always open to new opportunities and collaborations.
         </p>
 

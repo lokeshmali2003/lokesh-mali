@@ -14,9 +14,9 @@ const Home = () => {
     'Web Designer',
     'Web Developer',
     'UI/UX Designer',
-    'MERN',
-    'NEXT.js',
-    'PHP'
+    'MERN Stack Developer',
+    'Next.js Developer',
+    'PHP Developer'
   ]
 
   useEffect(() => {

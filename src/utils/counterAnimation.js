@@ -1,4 +1,4 @@
-export const animateCounter = (element, target, duration = 2000) => {
+export const animateCounter = (element, target, duration = 2000, suffix = '') => {
   if (!element) return
 
   const start = 0
@@ -8,10 +8,10 @@ export const animateCounter = (element, target, duration = 2000) => {
   const updateCounter = () => {
     current += increment
     if (current < target) {
-      element.textContent = Math.floor(current) + (target >= 100 ? '+' : '+')
+      element.textContent = Math.floor(current) + (suffix || (target >= 100 ? '+' : ''))
       requestAnimationFrame(updateCounter)
     } else {
-      element.textContent = target + (target >= 100 ? '+' : '+')
+      element.textContent = target + (suffix || (target >= 100 ? '+' : ''))
     }
   }
 
