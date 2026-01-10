@@ -1,0 +1,4 @@
+# Public Images Folder
+# Images placed here can be accessed directly via /images/filename.jpg
+# Example: <img src="/images/profile.jpg" alt="Profile" />
+
