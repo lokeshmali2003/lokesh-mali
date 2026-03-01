@@ -13,7 +13,9 @@ import {
   SiMongodb, 
   SiTypescript, 
   SiPhp, 
-  SiMysql 
+  SiMysql,
+  SiAdobephotoshop,
+  SiCanva ,
 } from 'react-icons/si'
 import './About.css'
 
@@ -36,7 +38,9 @@ const About = () => {
     { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
     { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
     { name: 'PHP', icon: SiPhp, color: '#777BB4' },
-    { name: 'MySQL', icon: SiMysql, color: '#4479A1' }
+    { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
+    { name: 'PhotoShop', icon: SiAdobephotoshop , color: '#036bba' },
+    { name: 'Canava', icon: SiCanva , color: '#8277e4' },
   ]
 
   useEffect(() => {
@@ -120,12 +124,12 @@ const About = () => {
               <div className="stat-item stat-item-company">
                 <div className="company-logo-wrapper">
                   <img 
-                    src="https://media.licdn.com/dms/image/v2/C4E0BAQHskdO0cpDcoQ/company-logo_200_200/company-logo_200_200/0/1679290755268?e=1769644800&v=beta&t=5qfPRD_kl1hIDCJ0CXGWggF1CFSdAA2RyfQZiHISXZ8" 
-                    alt="Jediteck" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeNiw2RMJk_HP8ECi4Ao4v-Vtzjtfv17O1A&s" 
+                    alt="Yashraj Creation" 
                     className="company-logo"
                   />
                 </div>
-                <p>Working on Jediteck</p>
+                <p>Working on Yashraj Creation</p>
               </div>
             </div>
           </div>

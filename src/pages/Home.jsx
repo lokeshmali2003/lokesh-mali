@@ -15,7 +15,7 @@ const Home = () => {
     'Web Developer',
     'UI/UX Designer',
     'MERN Stack Developer',
-    'Next.js Developer',
+    'Graphic Desiginer',
     'PHP Developer'
   ]
 
