@@ -13,9 +13,7 @@ const Home = () => {
   const skills = [
     'Web Designer',
     'Web Developer',
-    'UI/UX Designer',
     'MERN Stack Developer',
-    'Graphic Desiginer',
     'PHP Developer'
   ]
 
