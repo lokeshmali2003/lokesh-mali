@@ -11,11 +11,11 @@ const Projects = () => {
     {
       id: 1,
       projectNo: '01',
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce solution with payment integration and admin dashboard. Built with modern technologies for seamless shopping experience.',
-      tech: ['React', 'Node.js', 'MongoDB'],
-      image: '/images/project1.jpg',
-      liveDemo: 'https://example.com'
+      title: 'Rose Petals School',
+      description: ' Developed a responsive Rose Petals Secondary School website using HTML, CSS, Bootstrap, and PHP. Developed a responsive Rose Petals Secondary School website using HTML, CSS, Bootstrap, and PHP. It includes pages like Home, About, Interact Club, Facilities, Activities, Admission, Gallery, Alumni, Career, and Contact. ',
+      tech: ['HTML, CSS', 'BOOTSTRAP', 'PHP'],
+      image: 'images/rosepatels.png',
+      liveDemo: 'https://rosepetalsschool.com/'
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const Projects = () => {
       image: '/images/project2.jpg',
       liveDemo: 'https://example.com'
     },
-    
+
     
   ]
 
