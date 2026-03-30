@@ -121,16 +121,7 @@ const About = () => {
                 <h3 className="counter" data-target="1" data-suffix=" Year">0</h3>
                 <p>Years Experience</p>
               </div>
-              <div className="stat-item stat-item-company">
-                <div className="company-logo-wrapper">
-                  <img 
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeNiw2RMJk_HP8ECi4Ao4v-Vtzjtfv17O1A&s" 
-                    alt="Yashraj Creation" 
-                    className="company-logo"
-                  />
-                </div>
-                <p>Working on Yashraj Creation</p>
-              </div>
+             
             </div>
           </div>
         </div>
