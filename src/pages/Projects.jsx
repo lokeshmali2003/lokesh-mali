@@ -26,42 +26,8 @@ const Projects = () => {
       image: '/images/project2.jpg',
       liveDemo: 'https://example.com'
     },
-    {
-      id: 3,
-      projectNo: '03',
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather application with location-based forecasts and interactive maps. Provides accurate weather data with an intuitive user interface.',
-      tech: ['React', 'API Integration', 'CSS3'],
-      image: '/images/project3.jpg',
-      liveDemo: 'https://example.com'
-    },
-    {
-      id: 4,
-      projectNo: '04',
-      title: 'Social Media Analytics',
-      description: 'Analytics platform for tracking social media performance and engagement metrics. Helps businesses understand their social media presence.',
-      tech: ['React', 'Python', 'PostgreSQL'],
-      image: '/images/project4.jpg',
-      liveDemo: 'https://example.com'
-    },
-    {
-      id: 5,
-      projectNo: '05',
-      title: 'Learning Management System',
-      description: 'Comprehensive LMS for online courses with video streaming and progress tracking. Enables educators to create and manage courses effectively.',
-      tech: ['React', 'Node.js', 'AWS'],
-      image: '/images/project5.jpg',
-      liveDemo: 'https://example.com'
-    },
-    {
-      id: 6,
-      projectNo: '06',
-      title: 'Portfolio Website',
-      description: 'Modern portfolio website with animations and responsive design. Showcases projects and skills with an elegant and professional interface.',
-      tech: ['React', 'CSS3', 'Vite'],
-      image: '/images/project6.jpg',
-      liveDemo: 'https://example.com'
-    }
+    
+    
   ]
 
   useEffect(() => {
