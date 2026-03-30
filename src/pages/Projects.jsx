@@ -69,7 +69,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="container">
-        <h1 ref={titleRef} className="page-title fade-in animate-in">My Projects</h1>
+        <h4 ref={titleRef} className="page-title fade-in animate-in">My Projects</h4>
         <p ref={subtitleRef} className="page-subtitle fade-in animate-in">
           A collection of projects I've worked on
         </p>
