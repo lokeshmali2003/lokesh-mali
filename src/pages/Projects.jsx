@@ -21,10 +21,10 @@ const Projects = () => {
       id: 2,
       projectNo: '02',
       title: 'Task Management App',
-      description: 'Collaborative task management tool with real-time updates and team collaboration. Features include task assignment, progress tracking, and notifications.',
-      tech: ['React', 'Firebase', 'TypeScript'],
+      description: 'Developed a responsive E-commerce Website using HTML, CSS, and Bootstrap.It includes pages like Home, About, Shop, Collection, and Contact for smooth navigation and user experience.',
+      tech: ['HTML', 'CSS', 'BOOTSTRAP'],
       image: '/images/project2.jpg',
-      liveDemo: 'https://example.com'
+      liveDemo: 'https://ecommerce-ebon-seven.vercel.app/'
     },
 
     
