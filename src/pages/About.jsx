@@ -14,8 +14,8 @@ import {
   SiTypescript, 
   SiPhp, 
   SiMysql,
- 
-  SiCanva ,
+  SiAdobephotoshop,
+  SiCanva,
 } from 'react-icons/si'
 import './About.css'
 
