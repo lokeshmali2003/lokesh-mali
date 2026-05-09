@@ -32,15 +32,11 @@ const About = () => {
     { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
     { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
     { name: 'React.js', icon: SiReact, color: '#61DAFB' },
-    { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
     { name: 'Express.js', icon: SiExpress, color: '#000000' },
     { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
     { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
-    { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
     { name: 'PHP', icon: SiPhp, color: '#777BB4' },
     { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
-    { name: 'PhotoShop', icon: SiAdobephotoshop , color: '#036bba' },
-    { name: 'Canava', icon: SiCanva , color: '#8277e4' },
   ]
 
   useEffect(() => {

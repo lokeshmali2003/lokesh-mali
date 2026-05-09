@@ -391,11 +391,11 @@
   color: #339933;
 }
 
-.feature-card:nth-child(2) .feature-icon svg {
+/* .feature-card:nth-child(2) .feature-icon svg {
   color: #000000;
-}
+} */
 
-.feature-card:nth-child(3) .feature-icon svg {
+.feature-card:nth-child(2) .feature-icon svg {
   color: #777bb4;
 }
 

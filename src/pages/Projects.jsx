@@ -12,7 +12,7 @@ const Projects = () => {
       id: 1,
       projectNo: '01',
       title: 'Rose Petals School',
-      description: ' Developed a responsive Rose Petals Secondary School website using HTML, CSS, Bootstrap, and PHP. Developed a responsive Rose Petals Secondary School website using HTML, CSS, Bootstrap, and PHP. It includes pages like Home, About, Interact Club, Facilities, Activities, Admission, Gallery, Alumni, Career, and Contact. ',
+      
       tech: ['HTML, CSS', 'BOOTSTRAP', 'PHP'],
       image: 'images/rosepatels.png',
       liveDemo: 'https://rosepetalsschool.com/'
@@ -20,11 +20,20 @@ const Projects = () => {
     {
       id: 2,
       projectNo: '02',
-      title: 'Task Management App',
-      description: 'Developed a responsive E-commerce Website using HTML, CSS, and Bootstrap.It includes pages like Home, About, Shop, Collection, and Contact for smooth navigation and user experience.',
+      title: 'E-commerce Business Website',
+      // description: 'Developed a responsive business and E-commerce website, LUXE, using HTML, CSS, Bootstrap, and JavaScript. Features include Home, About, Shop, Collection, and Contact pages with modern UI, smooth navigation, responsive layouts, and interactive design for an enhanced user experience.',
       tech: ['HTML', 'CSS', 'BOOTSTRAP'],
-      image: '/images/project2.jpg',
-      liveDemo: 'https://ecommerce-ebon-seven.vercel.app/'
+      image: '/images/business.png',
+      liveDemo: 'https://websitedemo-indol.vercel.app/Business/demo1/index.html'
+    },
+    {
+      id: 3,
+      projectNo: '03',
+      title: 'Business Website',
+      // description: 'Developed a responsive E-commerce Website using HTML, CSS, and Bootstrap.It includes pages like Home, About, Shop, Collection, and Contact for smooth navigation and user experience.',
+      tech: ['HTML', 'CSS', 'BOOTSTRAP'],
+      image: '/images/Business2.png',
+      liveDemo: 'https://websitedemo-indol.vercel.app/Business/demo3/index.html'
     },
 
     
@@ -104,7 +113,7 @@ const Projects = () => {
               </div>
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
-                <p className="project-description">{project.description}</p>
+                {/* <p className="project-description">{project.description}</p> */}
                 <a 
                   href={project.liveDemo} 
                   target="_blank" 

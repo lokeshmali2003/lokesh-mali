@@ -93,13 +93,13 @@ const Home = () => {
               <h3>MERN Stack</h3>
               <p>Full-stack development using MongoDB, Express, React, and Node.js</p>
             </div>
-            <div className="feature-card">
+            {/* <div className="feature-card">
               <div className="feature-icon">
                 <SiNextdotjs />
               </div>
               <h3>Next.js</h3>
               <p>Building fast and scalable React applications with Next.js framework</p>
-            </div>
+            </div> */}
             <div className="feature-card">
               <div className="feature-icon">
                 <SiPhp />
@@ -134,7 +134,7 @@ const Home = () => {
                 <h3>Certifications</h3>
                 <p className="education-degree">Web Development & Programming</p>
                 <p className="education-institution">BL SONI College</p>
-                <p className="education-year">6 month</p>
+                <p className="education-year">1 Year</p>
               </div>
             </div>
             <div className="education-card">
